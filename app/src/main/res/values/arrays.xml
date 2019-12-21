@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_payment">
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>Bank Transfer</item>
+    </string-array>
+
+    <string-array name="spinner_can">
+        <item>20 Ltr can</item>
+        <item>10 Ltr can</item>
+    </string-array>
+
+
+</resources>

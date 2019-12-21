@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "720505277362",
+    "firebase_url": "https://aqua-bill.firebaseio.com",
+    "project_id": "aqua-bill",
+    "storage_bucket": "aqua-bill.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720505277362:android:1a1827ae72d639dfafb2ab",
+        "android_client_info": {
+          "package_name": "com.banyan.aquabill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720505277362-okht77g9dl79471707qpef3os66oc48i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtfb-vhI5_neER8i4iQhqxyqPMn6fSfd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720505277362-okht77g9dl79471707qpef3os66oc48i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

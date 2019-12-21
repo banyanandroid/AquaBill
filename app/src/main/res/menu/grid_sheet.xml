@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/applynow"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Apply Now" />
+
+    <item
+        android:id="@+id/timeline"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Time Line" />
+
+    <item
+        android:id="@+id/services"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Services" />
+
+    <item
+        android:id="@+id/courses"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Courses" />
+
+    <item
+        android:id="@+id/contactus"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Exit" />
+
+</menu>

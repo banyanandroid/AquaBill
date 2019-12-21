@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.banyan.aquabill">
+
+    <!-- permission for Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/MyMaterialTheme">
+
+        <uses-library android:name="org.apache.http.legacy"
+            android:required="false"></uses-library>
+
+        <activity android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.Activity_Login"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Profile"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Products_and_Rate"/>
+
+        <activity
+            android:name=".activity.Activity_TestReport"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_TestReport_Image_Preview"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Manage_Supplier"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_add_supplier"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_View_Supplier"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Purchase_Raw_Material"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_View_Purchase_Raw_Material"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Add_Purchase"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Raw_Mat_Live_Stock"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Purchase_Report"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Manage_Customer"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Add_Customer"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_View_Customer"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Assign_Product"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Manage_Invoice"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Add_Invoice"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Manage_Raw_MaterialInvoice"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Add_Raw_Mat_Invoice"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Manage_Received_Cash"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Add_Received_Cash"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Manage_Received_Can"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Add_Received_Can"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Report_Sales"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Report_Receipt"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Report_Empty_Can"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Report_Customer_Outstanding"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Report_Tranactions"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Report_Cust_Empty_Can_Report"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".utility.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

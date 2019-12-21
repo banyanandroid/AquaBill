@@ -1,0 +1,392 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:background="@color/view_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/spacing_middle"
+        android:background="@drawable/bg_form_rounded"
+        android:orientation="vertical">
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/manage_pdu_spn_pdu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:background="@drawable/bg_rounded_corner_new"
+            app:hintText="Select PDU" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded_corner"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_pdu_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="PDU Name"
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_pdu_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_bis_regno"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="BIS Reg.no."
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_bis_regno"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_fssai_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="FSSAI Reg.no."
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_fssai_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_gst_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="GST Reg.no."
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_gst_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_ssi_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="SSI Reg.no."
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_ssi_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_address"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Address"
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_address"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_contact_person"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Contact Person"
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_contact_person"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_contact_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Contact No."
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_contact_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_email"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Email"
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_email"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_brand"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Brand"
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_brand"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_product_rate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Products and rates"
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_product_rate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:visibility="gone"
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_lab_testreport"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Test Report"
+                        android:textColor="@color/grey_90"
+                        android:layout_weight="1"></TextView>
+
+                    <TextView
+                        android:id="@+id/manage_pdu_txt_testreport"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text=""
+                        android:visibility="gone"
+                        android:textColor="@color/red_900"
+                        android:layout_weight="1"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

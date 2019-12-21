@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Aqua Bill</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_dashboard">Dashbord</string>
+    <string name="nav_master">Master</string>
+    <string name="nav_manage_pdu">Manage PDU</string>
+    <string name="nav_generate_invoice">Manage Invoice/Can</string>
+    <string name="nav_invoice_report">My Reports</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Dashboard</item>
+        <item>Master</item>
+        <item>Manage PDU</item>
+        <item>Manage Invoice and Can</item>
+        <item>Reports</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+</resources>

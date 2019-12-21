@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/nav_dashboard" />
+
+        <item
+            android:id="@+id/nav_master"
+            android:icon="@drawable/ic_master_black_24dp"
+            android:title="@string/nav_master" />
+
+        <item
+            android:id="@+id/nav_manage_pdu"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="@string/nav_manage_pdu" />
+
+        <item
+            android:id="@+id/nav_generate_invoice"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="@string/nav_generate_invoice" />
+    </group>
+
+    <item android:title="Reports">
+        <menu>
+            <item
+                android:id="@+id/nav_invoice_report"
+                android:title="@string/nav_invoice_report" />
+        </menu>
+    </item>
+
+</menu>
